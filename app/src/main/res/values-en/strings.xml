@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PercTemp</string>
+    <string name="btnConPer">Grant GPS permission</string>
+    <string name="btnAtvGps">Enable GPS</string>
+    <string name="btnIniPer">Start Track</string>
+    <string name="lblDisPer">Travelled distance</string>
+    <string name="btnTerPer">End route</string>
+    <string name="btnDesGps">Turn off GPS</string>
+    <string name="txtPerCon">GPS permission already granted</string>
+    <string name="txtInpSea2">Search Google Maps ...</string>
+    <string name="lblTemPas">Time</string>
+    <string name="disTyp">" meters"</string>
+    <string name="perGps">GPS permission</string>
+    <string name="perAnt">GPS must be enabled before activating it</string>
+    <string name="gpsDes">GPS is already disabled</string>
+    <string name="gpsAtv">GPS is disabled.\nYou must enable it to start percussion</string>
+    <string name="disPer">The distance traveled was:%s\n%s total time</string>
+    <string name="perCon">GPS usage permission has been granted.</string>
+    <string name="perNCon">GPS usage permission has not been granted.</string>
+</resources>

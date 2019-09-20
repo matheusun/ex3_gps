@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PercTemp</string>
+    <string name="btnConPer">Erteilen Sie die GPS-Genehmigung</string>
+    <string name="btnAtvGps">Aktivieren Sie GPS</string>
+    <string name="btnIniPer">Track starten</string>
+    <string name="btnTerPer">Route beenden</string>
+    <string name="lblDisPer">Zurückgelegte Strecke</string>
+    <string name="btnDesGps">GPS ausschalten</string>
+    <string name="txtPerCon">GPS-Genehmigung bereits erteilt</string>
+    <string name="txtInpSea2">Google Maps durchsuchen ...</string>
+    <string name="lblTemPas">Zeit</string>
+    <string name="disTyp">" meter"</string>
+    <string name="perGps">GPS-Erlaubnis</string>
+    <string name="perAnt">GPS muss aktiviert sein, bevor es aktiviert wird</string>
+    <string name="gpsDes">GPS ist bereits deaktiviert</string>
+    <string name="gpsAtv">GPS ist deaktiviert.\nSie müssen es aktivieren, um Percussion zu starten</string>
+    <string name="disPer">Die zurückgelegte Strecke war:%s\n%s Gesamtzeit</string>
+    <string name="perCon">Die GPS-Nutzungserlaubnis wurde erteilt.</string>
+    <string name="perNCon">Die GPS-Nutzungserlaubnis wurde nicht erteilt.</string>
+</resources>

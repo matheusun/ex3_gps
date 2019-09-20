@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PercTemp</string>
+    <string name="btnConPer">Conceder permissão de GPS</string>
+    <string name="btnAtvGps">Ativar GPS</string>
+    <string name="btnIniPer">Iniciar Percuso</string>
+    <string name="btnTerPer">Terminar Percuso</string>
+    <string name="lblDisPer">Distância Percorrida</string>
+    <string name="btnDesGps">Desativar GPS</string>
+    <string name="txtPerCon">Permissão de GPS já concedida</string>
+    <string name="txtInpSea2">Pesquisar no Google Maps...</string>
+    <string name="lblTemPas">Tempo Passado</string>
+    <string name="disTyp">" metros"</string>
+    <string name="perGps">Permissão GPS</string>
+    <string name="perAnt">É necessário permitir o GPS, antes de ativa-lo</string>
+    <string name="gpsDes">O GPS já está desativado</string>
+    <string name="gpsAtv">O GPS está desativado.\nÉ necessário ativa-lo para iniciar o percuso</string>
+    <string name="disPer">A distância percorrida foi: %s\nNo total de %s de tempo</string>
+    <string name="perCon">A permissão de uso do GPS foi concedida.</string>
+    <string name="perNCon">A permissão de uso do GPS não foi concedida.</string>
+</resources>

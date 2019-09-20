@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    >
+
+    <Button
+        android:id="@+id/btnConPer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:contentDescription="@string/btnConPer"
+        android:elegantTextHeight="true"
+        android:gravity="center_horizontal"
+        android:onClick="onClickConPer"
+        android:text="@string/btnConPer" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:columnCount="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:contentDescription="@string/btnAtvGps"
+            android:elegantTextHeight="true"
+            android:gravity="center_horizontal"
+            android:onClick="onClickAtvGps"
+            android:text="@string/btnAtvGps" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:contentDescription="@string/btnDesGps"
+            android:gravity="center_horizontal"
+            android:onClick="onClickDesGps"
+            android:text="@string/btnDesGps" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:columnCount="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:contentDescription="@string/btnIniPer"
+            android:elegantTextHeight="true"
+            android:gravity="center_horizontal"
+            android:onClick="onClickIniPer"
+            android:text="@string/btnIniPer" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:contentDescription="@string/btnTerPer"
+            android:elegantTextHeight="true"
+            android:gravity="center_horizontal"
+            android:onClick="onClickTerPer"
+            android:text="@string/btnTerPer" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp"
+        android:layout_weight="1"
+        android:columnCount="1">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_columnWeight="0"
+            android:layout_gravity="center"
+            android:contentDescription="@string/lblDisPer"
+            android:text="@string/lblDisPer"
+            android:textColor="@color/colorPrimaryDark">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/lblDisPer2"
+            android:layout_gravity="center"
+            android:text="0">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25sp"
+        android:layout_weight="1"
+        android:columnCount="1">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_columnWeight="0"
+            android:layout_gravity="center"
+            android:contentDescription="@string/lblTemPas"
+            android:text="@string/lblTemPas"
+            android:textColor="@color/colorPrimaryDark">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <Chronometer
+            android:id="@+id/lblTemPas2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:columnCount="4">
+
+        <EditText
+            android:id="@+id/txtInpSea2"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="3"
+            android:layout_margin="0sp"
+            android:layout_marginLeft="10sp"
+            android:editable="true"
+            android:elegantTextHeight="true"
+            android:hint="@string/txtInpSea2"
+            android:inputType="text"
+            android:textColorHighlight="@color/common_google_signin_btn_text_light_pressed"
+            android:textColorLink="@color/common_google_signin_btn_text_light_pressed"
+            android:textCursorDrawable="@color/common_google_signin_btn_text_dark_focused" />
+
+        <Button
+            android:layout_width="54sp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/ic_search_black_24dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:enabled="true"
+            android:onClick="onClickSearch"
+            android:shadowDx="0"
+            android:shadowRadius="0" />
+
+    </GridLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/gmlogo"
+        tools:srcCompat="@drawable/gmlogo" />
+
+</LinearLayout>
